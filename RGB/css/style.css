@@ -1,0 +1,76 @@
+*{
+    margin:5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+body{
+    font-family:sans-serif , Arial, Arial Black, "微軟正黑體";
+	background-color: #fefbd8;
+  } 
+h1, h2, h3, h4 {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    background-color: #CC9999;
+    }
+p {
+     background-color: lightblue;
+     padding-top: 10px;
+     padding-right: 10px;
+     padding-bottom: 10px;
+     padding-left: 10px;
+   }
+   
+.button {
+  background-color: #999966
+  border-radius: 50%;
+  border: 2px solid #e7e7e7;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 6px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+div#area {
+	width: 360px;
+    height: 240 px;
+    border-radius:13em/3em; ;
+    border: gold 15px ridge;
+	transform: rotate(5deg); //傾斜角度
+    margin-bottom: 20px;
+    text-align: center;
+	text-shadow: 2px 2px 4px #000000;
+    font-size: 2em;
+    line-height: 350px;
+    text-transform: uppercase;
+    color: white;
+    }
+	
+div#area2 {
+      width: 360px;
+      height: 240 px;
+      border-radius:13em/3em; ;
+      border: silver 10px ridge;
+	  transform: rotate(-5deg); //傾斜角度
+	  opacity: 0.2;
+      text-align: center;
+	  text-shadow: 2px 2px 4px #000000;
+      font-size: 2em;
+      line-height: 350px;
+      text-transform: uppercase;
+      color: white;
+    }
+#outer {
+  width: 100%;
+  text-align: center;
+}
+
+#inner {
+  display: inline-block;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap');
